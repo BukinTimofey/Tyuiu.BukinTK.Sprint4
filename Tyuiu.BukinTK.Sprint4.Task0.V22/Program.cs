@@ -18,7 +18,7 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine("Сумма нечетных чисел массива = " + ds.GetSumOddArrEl(numsArray));
+        Console.WriteLine("Сумма нечетных элементов массива = " + ds.GetSumOddArrEl(numsArray));
 
         Console.ReadKey();
     }
