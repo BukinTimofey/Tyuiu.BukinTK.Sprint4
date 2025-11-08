@@ -12,7 +12,7 @@ namespace Tyuiu.BukinTK.Sprint4.Task2.V6.Lib
                 {
                     if (array[i] % 2 != 0)
                     {
-                        sum += array[i];
+                        sum *= array[i];
                     }
                 }
                 return sum;
