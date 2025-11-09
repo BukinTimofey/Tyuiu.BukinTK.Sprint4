@@ -21,18 +21,18 @@ namespace Tyuiu.BukinTK.Sprint4.Task7.V4.Lib
                 }
             }
 
-            int count = 0;
+            int res = 0;
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < m; j++)
                 {
                     if (mtrx[i, j] % 2 != 0)
                     {
-                        count++;
+                        res += mtrx[i, j];
                     }
                 }
             }
-            return count;
+            return res;
         }
     }
 }
